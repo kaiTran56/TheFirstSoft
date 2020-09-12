@@ -25,4 +25,7 @@ public class Book{
 	public void setPrice(double pricce){
 		this.price = price;
 	}
+	public String toString(){
+		return this.name+ " : " + this.author + " : " + this.price;
+	}
 }
